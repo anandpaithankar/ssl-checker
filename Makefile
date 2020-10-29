@@ -1,5 +1,5 @@
 build:
-	go build -o bin/ssl_checker src/main.go
+	go build -o bin/ssl_checker cmd/ssl-checker/main.go
 clean:
 	rm -f bin/ssl_checker
 
